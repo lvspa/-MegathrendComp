@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="util.css">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>WikiComputadores</title>
 </head>
 <body>
-$END$
+<div>
+  <nav>
+    <ul>
+      <li>Princiapais tópicos</li>
+      <li><a href="#" onclick="showContent('topico1')">Tópico 1</a></li>
+      <li><a href="#" onclick="showContent('topico2')">Tópico 2</a></li>
+      <li><a href="#" onclick="showContent('topico3')">Tópico 3</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <div id="topico1" class="topic" style="display: none;">
+      <h2>Topico 1 </h2>
+      <p>Lorem ipsum dolor sit amet.1 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
+    </div>
+    <div id="topico2" class="topic" style="display: none;">
+      <h2>Tópico 2</h2>
+      <p>Lorem ipsum dolor sit amet.2 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
+    </div>
+    <div id="topico3" class="topic" style="display: none;">
+      <h2>Tópico 3</h2>
+      <p>Lorem ipsum dolor sit amet.3 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
+    </div>
+  </div>
+
+</div>
 </body>
+<script src="uiControll.js" ></script>
 </html>
