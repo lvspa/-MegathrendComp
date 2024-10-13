@@ -7,28 +7,31 @@
 </head>
 <body>
 <div>
-  <nav>
+  <nav class="menuOculto">
+    <a href="" class="btnFechar" onclick="opNav()">&times;</a>
     <ul>
       <li>Princiapais tópicos</li>
-      <li><a href="#" onclick="showContent('topico1')">Tópico 1</a></li>
-      <li><a href="#" onclick="showContent('topico2')">Tópico 2</a></li>
-      <li><a href="#" onclick="showContent('topico3')">Tópico 3</a></li>
+      <li><a href="#" onclick="showContent('topico1')">Processador (CPU) </a></li>
+      <li><a href="#" onclick="showContent('topico2')">Placa de Vídeo (GPU)</a></li>
+      <li><a href="#" onclick="showContent('topico3')">Placa Mãe (MOBO)</a></li>
     </ul>
   </nav>
 
+
   <div class="content">
-    <div id="topico1" class="topic" style="display: none;">
-      <h2>Topico 1 </h2>
+    <span style="font-size: 30px;cursor: pointer" onclick="clNav()">&#9776</span>
+    <section id="topico1" class="topic" style="display: none;">
+      <h2>Processador (CPU)</h2>
       <p>Lorem ipsum dolor sit amet.1 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
-    </div>
-    <div id="topico2" class="topic" style="display: none;">
-      <h2>Tópico 2</h2>
+    </section>
+    <section id="topico2" class="topic" style="display: none;">
+      <h2>Placa de Vídeo (GPU)</h2>
       <p>Lorem ipsum dolor sit amet.2 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
-    </div>
-    <div id="topico3" class="topic" style="display: none;">
-      <h2>Tópico 3</h2>
+    </section>
+    <section id="topico3" class="topic" style="display: none;">
+      <h2>Placa Mãe (MOBO)</h2>
       <p>Lorem ipsum dolor sit amet.3 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
-    </div>
+    </section>
   </div>
 
 </div>
