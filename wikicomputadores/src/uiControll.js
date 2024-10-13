@@ -12,13 +12,14 @@ function showContent(topicId){
 
 }
 function opNav(){
-    document.getElementById("menuOculto").style.width="250px"
-    document.getElementById("content").style.marginLeft="250px"
+    document.querySelector(".menuOculto").style.width="250px";
+    document.querySelector(".content").style.marginLeft="250px";
 
 
 }
 function clNav(){
-    document.getElementById("menuOculto").style.width="0px"
-    document.getElementById("content").style.marginLeft="0px"
+    document.querySelector(".menuOculto").style.width="0px";
+    document.querySelector(".content").style.marginLeft="0px";
+
 
 }
