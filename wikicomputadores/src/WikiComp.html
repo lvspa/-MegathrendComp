@@ -9,11 +9,22 @@
 <div>
   <nav class="menuOculto">
     <a href="" class="btnFechar" onclick="clNav()">&times;</a>
+
     <ul>
-      <li>Princiapais tópicos</li>
-      <li><a href="#" onclick="showContent('topico1')">Processador (CPU) </a></li>
-      <li><a href="#" onclick="showContent('topico2')">Placa de Vídeo (GPU)</a></li>
-      <li><a href="#" onclick="showContent('topico3')">Placa Mãe (MOBO)</a></li>
+      <li class="titl">O computador</li>
+      <li>
+        <a href="#" onclick="showContent('topico1')">Processador (CPU)</a>
+        <ul>
+          <li><a href="#" onclick="showContent('topicoAMD')">AMD</a></li>
+          <li><a href="#" onclick="showContent('topicoIntel')">Intel</a></li>
+        </ul>
+      <li>
+        <a href="#" onclick="showContent('topico2')">Placa de Vídeo (GPU)</a>
+      </li>
+      <li>
+        <a href="#" onclick="showContent('topico3')">Placa Mãe (MOBO)</a>
+      </li>
+
     </ul>
   </nav>
 
@@ -22,7 +33,10 @@
     <span style="font-size: 30px;cursor: pointer" onclick="opNav()">&#9776</span>
     <section id="topico1" class="topic" >
       <h2>Processador (CPU)</h2>
-      <p>Lorem ipsum dolor sit amet.1 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
+      <p>Os processadores (CPUs) são o “cérebro” dos computadores, responsáveis por executar tarefas e comandos em aplicações.
+        As duas principais empresas no mercado de CPUs são Intel e AMD, cada uma com diferentes linhas de produtos para diversos tipos de uso.
+        No submenu deste item você encontra informações mais detalhadas sobre a CPU de cada fabricante
+      </p>
     </section>
     <section id="topico2" class="topic" >
       <h2>Placa de Vídeo (GPU)</h2>
@@ -32,6 +46,15 @@
       <h2>Placa Mãe (MOBO)</h2>
       <p>Lorem ipsum dolor sit amet.3 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
     </section>
+    <section id="topicoAMD" class="topic" >
+      <h2>AMD</h2>
+      <p>Lorem ipsum dolor sit amet.3 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
+    </section>
+    <section id="topicoIntel" class="topic" >
+      <h2>Intel</h2>
+      <p>Lorem ipsum dolor sit amet.3 Sed voluptas omnis et rerum nulla et velit rerum ut voluptatem repellat?</p>
+    </section>
+
   </div>
 
 </div>
