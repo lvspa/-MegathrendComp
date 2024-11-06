@@ -1,5 +1,5 @@
 body{
-    background-color: #2F2F2F;
+    background-color: #151515;
 }
 
 .frontxt{
@@ -23,8 +23,8 @@ body{
     padding: 10px;
     width: 160px;
     border-radius: 30px;
-    background-image: linear-gradient(#ee4546, rgba(255, 66, 66, 0.71));
-    border: solid 1px #ee4546;
+    background-image: linear-gradient(#3f0b70, rgba(201, 148, 255, 0.71));
+    border: solid 1px #3f0b70;
     border-right-width: 4px;
     border-bottom-width: 4px;
     margin: 200px;
@@ -39,10 +39,21 @@ button {
     font-weight: 700;
     cursor: pointer;
 }
-.txtD{
-    font-family: Jomolhari;
-    color: #3588aa;
+
+
+@font-face {
+    font-family: 'AldoApache';
+    src: url("fonts/AldotheApache.ttf") format("woff2"),
+    url("fonts/AldotheApache.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
+
+.frontxt {
+    font-family: 'AldoApache', sans-serif;
+    font-size: large;
+}
+
 
 .logoimg{
     float: right;
