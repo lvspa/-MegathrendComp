@@ -1,5 +1,5 @@
 body{
-    background-color: #313131;
+    background-color: rgba(49, 49, 49, 0.87);
     margin: 0;
     padding: 0;
 
@@ -7,7 +7,7 @@ body{
 
 .sidebar {
     width: 200px;
-    background-color: #333;
+    background-color: #262626;
     color: white;
     padding: 15px;
 }
@@ -51,7 +51,7 @@ body{
     z-index: 1;
     top:0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.71);
+    background-color: rgba(0, 0, 0, 0.6);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -61,7 +61,7 @@ body{
     padding: 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.47);
+    color: rgba(255, 255, 255, 0.41);
     transition: 0.3s;
 
 }
@@ -83,4 +83,15 @@ body{
 }
 .pointerbt{
     color: white;
+}
+#formatxt{
+    float: left;
+}
+
+.ryzen-processors {
+    display: flex;
+    flex-direction: column;
+}
+.ryzen-processors div {
+    margin: 5px 0;
 }

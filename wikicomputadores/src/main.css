@@ -9,13 +9,8 @@ body{
 
 }
 .frontxt img{
-
     float: right;
-
-
 }
-
-
 .frontBotton {
     display: flex;
     justify-content: center;
@@ -28,6 +23,7 @@ body{
     border-right-width: 4px;
     border-bottom-width: 4px;
     margin: 200px;
+
 }
 
 button {
@@ -51,7 +47,7 @@ button {
 
 .frontxt {
     font-family: 'AldoApache', sans-serif;
-    font-size: large;
+    font-size: 25px;
 }
 
 
