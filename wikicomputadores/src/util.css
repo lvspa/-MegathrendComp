@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(49, 49, 49, 0.87);
+    background-color: rgba(49, 49, 49, 0.96);
     margin: 0;
     padding: 0;
 
@@ -94,4 +94,13 @@ body{
 }
 .ryzen-processors div {
     margin: 5px 0;
+}
+.linhas{
+width: 50%;
+margin-left: 0;
+
+}
+
+.titulos{
+    text-align: left;
 }
