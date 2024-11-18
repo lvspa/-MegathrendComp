@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(49, 49, 49, 0.96);
+    background-color: #282a36;
     margin: 0;
     padding: 0;
 
@@ -8,7 +8,7 @@ body{
 .sidebar {
     width: 200px;
     background-color: #262626;
-    color: white;
+    color: #f8f8f2;
     padding: 15px;
 }
 
@@ -22,7 +22,7 @@ body{
 }
 
 .sidebar ul li a {
-    color: white;
+    color: #f8f8f2;
     text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ body{
 
 .topic {
     display: none;
-    color: #f1f1f1;
+    color: #f8f8f2;
     padding: 15px;
     text-align: center;
 }
@@ -67,7 +67,7 @@ body{
 }
 
 .menuOculto a:hover{
-    color: #ffffff;
+    color: #f8f8f2;
 }
 
 .btnFechar{
@@ -78,11 +78,11 @@ body{
     margin-left: 50px;
 }
 .titl{
-    color: #f1f1f1;
+    color: #f8f8f2;
 
 }
 .pointerbt{
-    color: white;
+    color: #f8f8f2;
 }
 #formatxt{
     float: left;
