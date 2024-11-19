@@ -112,3 +112,10 @@ table, th, td {
     border-collapse: collapse;
     padding: 15px;
 }
+
+.boltPin{
+    color: #ff79c6;
+}
+#amdTit{
+    color: #ff5555;
+}
